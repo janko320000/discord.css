@@ -26,7 +26,7 @@
   --avatar-roundness: 50%;
   --background-shading: 100%;
   --background-overlay: rgba(0, 0, 0, .6);
-  --background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
+  --background-image: url(https://janko3200000.github.io/discord.css/images/sapphire.jpg);
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -75,7 +75,7 @@
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
   --user-modal-blur: calc(var(--background-blur) + 3px);
-  --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
+  --home-icon: url(https://janko3200000.github.io/discord.css/icons/discord.svg);
   --home-position: center;
   --home-size: 40px;
 }
@@ -433,43 +433,43 @@ textarea,
   display: none;
 }
 .toolbar-1t6TWx [name=Nova_Bell].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/notifications.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/notifications.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_BellOff].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/notifications_off.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/notifications_off.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_Pin].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/pin.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/pin.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_People].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/people.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/people.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_At].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/mail.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/mail.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_Help].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/help.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/help.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_ChatNew].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/group_add.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/group_add.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_CallJoin].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/call.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/call.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_CallVideo].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/videocam.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/videocam.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_UserAdd].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/person_add.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/person_add.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx .icon-22AiRD.updateAvailable-qNqOs7 {
-  background: url(https://clearvision.gitlab.io/icons/sync.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/sync.svg) center/24px no-repeat;
   -webkit-animation: cv-update-spin 2s linear infinite;
           animation: cv-update-spin 2s linear infinite;
 }
 .toolbar-1t6TWx [name=Nova_Downloading].icon-22AiRD {
   position: relative;
-  background: url(https://clearvision.gitlab.io/icons/cloud_download.svg) center/24px no-repeat, linear-gradient(to bottom, var(--main-color), var(--main-color)) 50% 10px/10px 10px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/cloud_download.svg) center/24px no-repeat, linear-gradient(to bottom, var(--main-color), var(--main-color)) 50% 10px/10px 10px no-repeat;
   -webkit-animation: cv-update-downloading 2.5s ease-in-out infinite;
           animation: cv-update-downloading 2.5s ease-in-out infinite;
 }
@@ -495,7 +495,7 @@ textarea,
   opacity: 1;
 }
 .toolbar-1t6TWx .linkIcon-PzfbqY {
-  background: url(https://clearvision.gitlab.io/icons/share.svg) center/24px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/share.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx .linkIcon-PzfbqY > g {
   display: none;
@@ -1038,7 +1038,7 @@ textarea,
 }
 
 [name=Gear].actionIcon-PgcMM2 {
-  background: url(https://clearvision.gitlab.io/icons/settings.svg) no-repeat center/18px;
+  background: url(https://janko3200000.github.io/discord.css/icons/settings.svg) no-repeat center/18px;
 }
 [name=Gear].actionIcon-PgcMM2:hover {
   -webkit-animation: cv-spin 2.5s linear infinite;
@@ -1048,7 +1048,7 @@ textarea,
   display: none;
 }
 [name=Invite].actionIcon-PgcMM2 {
-  background: url(https://clearvision.gitlab.io/icons/person_add.svg) no-repeat center/18px;
+  background: url(https://janko3200000.github.io/discord.css/icons/person_add.svg) no-repeat center/18px;
 }
 [name=Invite].actionIcon-PgcMM2 > path {
   display: none;
@@ -1435,7 +1435,7 @@ textarea,
 }
 .privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5 {
   display: block;
-  background: url(https://clearvision.gitlab.io/icons/close.svg) center/18px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/close.svg) center/18px no-repeat;
   opacity: 0;
   transition: all 0.15s ease-in-out;
 }
@@ -2257,7 +2257,7 @@ textarea,
   content: "";
   width: 36px;
   height: 36px;
-  background: url(https://clearvision.gitlab.io/icons/file_music.svg) center/100% no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/file_music.svg) center/100% no-repeat;
   opacity: 0.5;
 }
 .audioMetadata-3zOuGv .metadataSize-2UOOLK {
@@ -3110,38 +3110,38 @@ code {
   height: 30px;
   box-sizing: border-box;
   padding-left: 30px;
-  background-image: url(https://clearvision.gitlab.io/icons/file.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file.svg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   opacity: 0.5;
 }
 :not(.embedWrapper-3AbfJJ) > [title=unknown].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_upload.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_upload.svg);
 }
 [title=document].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_document.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_document.svg);
 }
 [title=archive].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_archive.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_archive.svg);
 }
 [title=code].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_code.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_code.svg);
 }
 [title=webcode].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_webcode.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_webcode.svg);
 }
 [title=ai].icon-1kp3fr, [title=ps].icon-1kp3fr, [title=photoshop].icon-1kp3fr, [title=sketch].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_image.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_image.svg);
 }
 [title=ae].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_video.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_video.svg);
 }
 [title=spreadsheet].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_table.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_table.svg);
 }
 [title=acrobat].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_pdf.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/file_pdf.svg);
 }
 
 .fileNameLink-9GuxCo {
@@ -3418,7 +3418,7 @@ code {
 }
 
 .ownerIcon-uZ6mE7 {
-  background: url(https://clearvision.gitlab.io/icons/crown.svg) center/contain no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/crown.svg) center/contain no-repeat;
   opacity: 0.4;
   transition: all 0.15s ease-in-out;
 }
@@ -6283,31 +6283,31 @@ textarea::-webkit-scrollbar {
 
 /*  OLD CATEGORIES
 %emojiPickerCategoriesItemPeople {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiSmileys.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiSmileys.svg);
 }
 %emojiPickerCategoriesItemNature {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiNature.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiNature.svg);
 }
 %emojiPickerCategoriesItemFood {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiFood.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiFood.svg);
 }
 %emojiPickerCategoriesItemActivity {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiActivity.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiActivity.svg);
 }
 %emojiPickerCategoriesItemTravel {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiTravel.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiTravel.svg);
 }
 %emojiPickerCategoriesItemObjects {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiObject.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiObject.svg);
 }
 %emojiPickerCategoriesItemSymbols {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiSymbol.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiSymbol.svg);
 }
 %emojiPickerCategoriesItemFlags {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiFlags.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiFlags.svg);
 }   
 %emojiPickerCategoriesItemCustom {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiCustom.svg);
+	background-image: url(https://janko3200000.github.io/discord.css/icons/discord/emojiCustom.svg);
 }
 */
 /* GROUP INVITE POPOUT */
@@ -6606,7 +6606,7 @@ textarea::-webkit-scrollbar {
 .additionalActionsIcon-1FoUlE {
   width: 24px;
   height: 24px;
-  background: url(https://clearvision.gitlab.io/icons/expand_more.svg) center/36px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/expand_more.svg) center/36px no-repeat;
   opacity: 0.3;
   transition: all 0.15s ease-in-out;
 }
@@ -6640,56 +6640,56 @@ textarea::-webkit-scrollbar {
 }
 
 .profileBadgeStaff-13GO7z {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeStaff.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeStaff.svg);
 }
 .profileBadgePartner-SjK6L2 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgePartner.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgePartner.svg);
 }
 .profileBadgeHypesquad-1YIe7Z {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquad.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquad.svg);
 }
 .profileBadgeHypeSquadOnlineHouse1-xN6tES {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBravery.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquadBravery.svg);
 }
 .profileBadgeHypeSquadOnlineHouse2-3jBpXR {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBrilliance.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquadBrilliance.svg);
 }
 .profileBadgeHypeSquadOnlineHouse3-1YbjMX {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBalance.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquadBalance.svg);
 }
 .profileBadgeHypeSquadOnlineHouse1Winner-3OGyO6 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBraveryWinner.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquadBraveryWinner.svg);
 }
 .profileBadgeHypeSquadOnlineHouse2Winner-3GW5Sm {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBrillianceWinner.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquadBrillianceWinner.svg);
 }
 .profileBadgeHypeSquadOnlineHouse3Winner-2iVu11 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBalanceWinner.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeHypeSquadBalanceWinner.svg);
 }
 .profileBadgeEarlySupporter-PQB_0a {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeEarlySupporter.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeEarlySupporter.svg);
 }
 .profileBadgePremium-3kZ9Qj {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeNitro.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeNitro.svg);
 }
 .profileBadgeBugHunter-IV0vLE {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeBugHunter.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeBugHunter.svg);
 }
 .profileGuildSubscriberlvl1-pKd1EZ {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber1.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeGuildSubscriber1.svg);
 }
 .profileGuildSubscriberlvl2-1aIFve {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber2.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeGuildSubscriber2.svg);
 }
 .profileGuildSubscriberlvl3-33AROf {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber3.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeGuildSubscriber3.svg);
 }
 .profileGuildSubscriberlvl4-2yY8EG {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber4.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgeGuildSubscriber4.svg);
 }
 
 .topSectionPlaying-1J5E4n .profileBadgePartner-SjK6L2 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgePartner.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/discord/badgePartner.svg);
 }
 
 .root-SR8cQa .tabBarContainer-1s1u-z {
@@ -6803,7 +6803,7 @@ textarea::-webkit-scrollbar {
 }
 
 .connectedAccountVerifiedIcon-3aZz_K {
-  background: url(https://clearvision.gitlab.io/icons/verified.svg) center/18px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/verified.svg) center/18px no-repeat;
   opacity: 0.5;
   z-index: 1;
 }
@@ -6815,7 +6815,7 @@ textarea::-webkit-scrollbar {
 }
 
 .connectedAccountOpenIcon-2cNbq5 {
-  background: url(https://clearvision.gitlab.io/icons/popout.svg) center/18px no-repeat;
+  background: url(https://janko3200000.github.io/discord.css/icons/popout.svg) center/18px no-repeat;
   opacity: 0.3;
   transition: all 0.15s ease-in-out;
 }
@@ -7381,73 +7381,73 @@ textarea::-webkit-scrollbar {
   margin-top: -2px;
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=My-Account-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/person.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/person.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy-&-Safety-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/security.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/security.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Authorized-Apps-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/apps.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Connections-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/link.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/link.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Discord-Nitro-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/nitro.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Nitro-Server-Boost-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/server_boost.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Library-Inventory-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/gift.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Billing-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/payment.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/payment.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Appearance-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/camera.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice-&-Video-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/mic.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text-&-Images-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/chat.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Notifications-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/notifications.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/notifications.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Keybinds-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/keyboard.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/keyboard.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Language-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/language.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/language.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Windows-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/windows.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/windows.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Linux-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/linux.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/linux.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Streamer-Mode-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/videocam.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Advanced-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/bug.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Game-Activity-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/games.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/games.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Overlay-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/aspect_ratio.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/aspect_ratio.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/history.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/history.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Hypesquad-Online-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/exit.svg);
 }
 
 .icon-Zc-uZZ,
@@ -8266,19 +8266,19 @@ textarea::-webkit-scrollbar {
   margin-top: -2px;
 }
 .sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(3):before {
-  background-image: url(https://clearvision.gitlab.io/icons/betterdiscord.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/betterdiscord.svg);
 }
 .sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(4):before {
-  background-image: url(https://clearvision.gitlab.io/icons/emote.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/emote.svg);
 }
 .sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(5):before {
-  background-image: url(https://clearvision.gitlab.io/icons/puzzle.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/puzzle.svg);
 }
 .sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(6):before {
-  background-image: url(https://clearvision.gitlab.io/icons/palette.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/palette.svg);
 }
 .sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(7):before {
-  background-image: url(https://clearvision.gitlab.io/icons/code_braces.svg);
+  background-image: url(https://janko3200000.github.io/discord.css/icons/code_braces.svg);
 }
 
 #bda-qem {
