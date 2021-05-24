@@ -93,23 +93,23 @@
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
-    --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
-    --opera-gx-bg-2: url(https://cdn.discordapp.com/attachments/702611641530843186/759781824011436062/02.jpg);
-    --opera-gx-bg-3: url(https://cdn.discordapp.com/attachments/702611641530843186/759781832610152488/03.jpg);
-    --opera-gx-bg-4: url(https://cdn.discordapp.com/attachments/702611641530843186/759781844698529812/04.jpg);
-    --opera-gx-bg-5: url(https://cdn.discordapp.com/attachments/702611641530843186/759781861533810738/05.jpg);
-    --opera-gx-bg-6: url(https://cdn.discordapp.com/attachments/702611641530843186/759781877858566144/06.jpg);
-    --opera-gx-bg-7: url(https://cdn.discordapp.com/attachments/702611641530843186/759781895608205382/07.jpg);
-    --opera-gx-bg-8: url(https://cdn.discordapp.com/attachments/702611641530843186/759781906232377364/08.jpg);
-    --opera-gx-bg-9: url(https://cdn.discordapp.com/attachments/702611641530843186/759781919369592873/09.jpg);
-    --opera-gx-bg-10: url(https://cdn.discordapp.com/attachments/702611641530843186/759781931730075648/10.jpg);
-    --opera-gx-bg-11: url(https://cdn.discordapp.com/attachments/702611641530843186/759781946187841576/11.jpg);
-    --opera-gx-bg-12: url(https://cdn.discordapp.com/attachments/702611641530843186/759781959513407518/12.jpg);
-    --opera-gx-bg-13: url(https://cdn.discordapp.com/attachments/702611641530843186/759781973543092234/13.jpg);
-    --opera-gx-bg-14: url(https://cdn.discordapp.com/attachments/702611641530843186/759781993486876682/14.jpg);
-    --opera-gx-bg-15: url(https://cdn.discordapp.com/attachments/702611641530843186/759782008204689428/15.jpg);
+    --opera-gx-bg-1: url(https://janko320000.github.io/discord.css/icons2/01.jpg);
+    --opera-gx-bg-2: url(https://janko320000.github.io/discord.css/icons2/02.jpg);
+    --opera-gx-bg-3: url(https://janko320000.github.io/discord.css/icons2/03.jpg);
+    --opera-gx-bg-4: url(https://janko320000.github.io/discord.css/icons2/04.jpg);
+    --opera-gx-bg-5: url(https://janko320000.github.io/discord.css/icons2/05.jpg);
+    --opera-gx-bg-6: url(https://janko320000.github.io/discord.css/icons2/06.jpg);
+    --opera-gx-bg-7: url(https://janko320000.github.io/discord.css/icons2/07.jpg);
+    --opera-gx-bg-8: url(https://janko320000.github.io/discord.css/icons2/08.jpg);
+    --opera-gx-bg-9: url(https://janko320000.github.io/discord.css/icons2/09.jpg);
+    --opera-gx-bg-10: url(https://janko320000.github.io/discord.css/icons2/10.jpg);
+    --opera-gx-bg-11: url(https://janko320000.github.io/discord.css/icons2/11.jpg);
+    --opera-gx-bg-12: url(https://janko320000.github.io/discord.css/icons2/12.jpg);
+    --opera-gx-bg-13: url(https://janko320000.github.io/discord.css/icons2/13.jpg);
+    --opera-gx-bg-14: url(https://janko320000.github.io/discord.css/icons2/14.jpg);
+    --opera-gx-bg-15: url(https://janko320000.github.io/discord.css/icons2/15.jpg);
 
-    --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
+    --gc-bg-1: url(https://janko320000.github.io/discord.css/icons2/gxbg.jpeg);
 
     /* Quick variables */
     --line-color: var(--line-color-1);
@@ -406,7 +406,7 @@
 
 /*~~ 4. Font ~~*/
 @font-face {
-    src: url(https://tomrdh.github.io/da-website/fonts/Chakra%20Petch%20Regular%20400.ttf);
+    src: url(https://janko320000.github.io/discord.css/icons2/Chakra Petch Regular 400.ttf);
     font-family: "Chakra Petch Regular";
 }
 :root {
@@ -3024,7 +3024,7 @@ code.inline {
 }
 /* Quick Switcher Empty State */
 #app-mount .emptyState-2gL-9T {
-    background-image: url(https://tomrdh.github.io/stuff/img/nyan_cat_transparent.gif);
+    background-image: url(https://janko320000.github.io/discord.css/icons2/nyan_cat_transparent.gif);
     background-size: 30%;
 }
 .emptyStateNote-ZYTetQ {
