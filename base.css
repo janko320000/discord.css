@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! Janko's Theme base */
+/*! Janko's Theme v6.1.0 */
 /*! Powered by DiscordSelectors v0.2.7 */
 /* DEFAULT SETTINGS */
 :root {
@@ -19,6 +19,7 @@
   --streaming-color: #593695;
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --font-display: var(--main-font);
   --text-normal: rgb(220, 221, 222);
   --text-muted: rgb(114, 118, 125);
   --channels-width: 220px;
@@ -26,7 +27,7 @@
   --avatar-roundness: 50%;
   --background-shading: 100%;
   --background-overlay: rgba(0, 0, 0, .6);
-  --background-image: url(https://janko320000.github.io/discord.css/images/sapphire.jpg);
+  --background-image: url(https://janko320000.github.io/discord.css/icons/sapphire.jpg);
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -54,7 +55,7 @@
   --user-popout-image: var(--background-image);
   --user-popout-position: var(--background-position);
   --user-popout-size: var(--background-size);
-  --user-popout-repeat: var(--background-repeat);@charset "UTF-8";
+  --user-popout-repeat: var(--background-repeat);
   --user-popout-attachment: var(--background-attachment);
   --user-popout-brightness: var(--background-brightness);
   --user-popout-contrast: var(--background-contrast);
@@ -2997,7 +2998,7 @@ code {
 .topic-TCb_qw .mention,
 .markup-2BOw-j .wrapper-3WhCwL,
 .markup-2BOw-j .mention {
-  padding: 1px 4px;
+  padding: 0 4px;
   border-radius: 5px;
   line-height: 22px;
   font-weight: 500;
@@ -3431,7 +3432,7 @@ code {
   background-color: var(--background-overlay);
 }
 
-/* USERNAME TAGS */
+/* TAGGED USERS */
 .contents-2mQqc9 > img ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: none;
   color: currentcolor;
@@ -3448,6 +3449,9 @@ code {
 }
 .contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Admin";
+}
+.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "CV Team";
 }
 .contents-2mQqc9 > img[src*="240437190339854337"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Team";
@@ -3551,71 +3555,11 @@ code {
 .contents-2mQqc9 > img[src*="245133485688225793"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Donator";
 }
-.contents-2mQqc9 > img[src*="266991742216175616"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="97549189629636608"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="128948605263413248"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="168481642309091328"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="165581066524950530"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="102621249892544512"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="94553281296084992"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="85410928408924160"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="143476079267414016"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="131917628800237570"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="155379920242081793"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="135130130942132224"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="123340872333918215"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="250721335305568258"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="297041315852713984"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="128006451053592577"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="102009847792291840"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="513423192484872223"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="580867069621567488"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
 .contents-2mQqc9 > img[src*="538745942493495298"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Guide Creator";
+  content: "CV Translator";
 }
 .contents-2mQqc9 > img[src*="265627010733178892"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Guide Creator";
-}
-.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Team | Tag Originator";
+  content: "CV Guide Maker";
 }
 .contents-2mQqc9 > img[src*="309976820109803520"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "Former CV Team";
@@ -4922,16 +4866,20 @@ code {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ,
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6,
-.lookOutlined-3sRXeN.colorGreen-29iAKY, j .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorGreen-29iAKY,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorRed-1TFJan,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   background: transparent;
   border-color: var(--main-color);
   color: rgba(255, 255, 255, 0.8);
 }
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
-.lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
-.lookOutlined-3sRXeN.colorGreen-29iAKY:hover, j .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorGreen-29iAKY:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorRed-1TFJan:hover,
+.appMount-3lHmkl .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   background: transparent;
   border-color: var(--hover-color);
   color: #fff;
@@ -5373,26 +5321,8 @@ textarea::-webkit-scrollbar {
   margin-right: -16px;
   transform-origin: 100% 50%;
 }
-.userPopout-3XzG_A .header-2BwW8b {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)) center/cover;
-}
-.userPopout-3XzG_A .headerStreaming-2FjmGz {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)) center/cover, linear-gradient(to bottom, rgba(89, 54, 149, 0.4) 93%, transparent 100%);
-}
-.userPopout-3XzG_A .headerSpotify-zpWxgT {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)) center/cover, linear-gradient(to bottom, rgba(29, 185, 84, 0.4) 93%, transparent 100%);
-}
-.userPopout-3XzG_A .headerXbox-3G-4PF {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)) center/cover, linear-gradient(to bottom, rgba(16, 124, 16, 0.4) 93%, transparent 100%);
-}
-.userPopout-3XzG_A .headerXbox-3G-4PF .actionsUserPopout-2MrzCa > .button-38aScr {
-  background: rgba(16, 124, 16, 0.3);
-}
-.userPopout-3XzG_A .headerXbox-3G-4PF .actionsUserPopout-2MrzCa > .button-38aScr:hover {
-  background: rgba(16, 124, 16, 0.5);
-}
-.userPopout-3XzG_A .activityUserPopout-2yItg2 {
-  background: rgba(0, 0, 0, 0.04);
+.userPopout-3XzG_A .headerNormal-1l1Znk {
+  background: rgba(0, 0, 0, 0.6);
 }
 .userPopout-3XzG_A .mobileIndicator-29f8Xh {
   color: rgba(255, 255, 255, 0.4);
@@ -5404,8 +5334,19 @@ textarea::-webkit-scrollbar {
 .userPopout-3XzG_A .listeningActionsUserPopout-Ga2V_N > .button-38aScr {
   flex-grow: 1;
 }
+.userPopout-3XzG_A .profileBanner-33-uE1 {
+  -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
+  mask: linear-gradient(to bottom, #000, transparent 93%);
+}
+.userPopout-3XzG_A .headerTop-2y3V6H {
+  background-color: transparent;
+}
+.userPopout-3XzG_A .avatar-22FtUu {
+  border-color: transparent;
+  background-color: transparent;
+}
 .userPopout-3XzG_A .body-3iLsc4 {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.6);
 }
 .userPopout-3XzG_A .bodyInner-245q0L {
   background: transparent;
@@ -5442,8 +5383,7 @@ textarea::-webkit-scrollbar {
   color: rgba(255, 255, 255, 0.5);
 }
 .userPopout-3XzG_A .footer-1fjuF6 {
-  background: rgba(0, 0, 0, 0.65);
-  border-color: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.6);
 }
 .userPopout-3XzG_A .quickMessage-1yeL4E {
   background: rgba(0, 0, 0, 0.3);
@@ -7380,25 +7320,29 @@ textarea::-webkit-scrollbar {
   left: 15px;
   margin-top: -2px;
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=My-Account-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e .item-PXvHYJ:hover:before {
+  transform: rotateY(180deg);
+  transition: all 0.15s ease-in-out;
+}
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="My Account-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/person.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy-&-Safety-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy & Safety-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/security.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Authorized-Apps-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Authorized Apps-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/apps.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Connections-tab].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/link.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Discord-Nitro-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Discord Nitro-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/nitro.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Nitro-Server-Boost-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Nitro Server Boost-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/server_boost.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Library-Inventory-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Library Inventory-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/gift.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Billing-tab].item-PXvHYJ:before {
@@ -7407,10 +7351,10 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Appearance-tab].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/camera.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice-&-Video-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice & Video-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/mic.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text-&-Images-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text & Images-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/chat.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Notifications-tab].item-PXvHYJ:before {
@@ -7428,13 +7372,13 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Linux-tab].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/linux.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Streamer-Mode-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Streamer Mode-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/videocam.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Advanced-tab].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/bug.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Game-Activity-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Game Activity-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/games.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Overlay-tab].item-PXvHYJ:before {
@@ -7443,7 +7387,7 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/history.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Hypesquad-Online-tab].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Hypesquad Online-tab"].item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
@@ -7465,17 +7409,16 @@ textarea::-webkit-scrollbar {
   background: transparent;
 }
 
-.closeButton-1tv5uR {
+.theme-dark .closeButton-1tv5uR {
   border-color: rgba(255, 255, 255, 0.4);
 }
-.closeButton-1tv5uR:hover {
+.theme-dark .closeButton-1tv5uR:hover {
   border-color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
 }
-.closeButton-1tv5uR > svg > path {
+.theme-dark .closeButton-1tv5uR > svg > path {
   fill: rgba(255, 255, 255, 0.6);
 }
-
 .theme-dark .keybind-KpFkfr {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -8254,31 +8197,17 @@ textarea::-webkit-scrollbar {
 }
 
 /* BD SETTINGS SIDEBAR ICONS */
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item {
-  padding-left: 50px !important;
-}
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:before {
-  content: "";
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 15px;
-  margin-top: -2px;
-}
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(3):before {
+.sidebar-CFHs9e .bd-settings-tab.item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/betterdiscord.svg);
 }
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(4):before {
-  background-image: url(https://janko320000.github.io/discord.css/icons/emote.svg);
+.sidebar-CFHs9e .bd-customcss-tab.item-PXvHYJ:before {
+  background-image: url(https://janko320000.github.io/discord.css/icons/code_braces.svg);
 }
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(5):before {
+.sidebar-CFHs9e .bd-plugins-tab.item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/puzzle.svg);
 }
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(6):before {
+.sidebar-CFHs9e .bd-themes-tab.item-PXvHYJ:before {
   background-image: url(https://janko320000.github.io/discord.css/icons/palette.svg);
-}
-.sidebar-CFHs9e #bd-settings-sidebar .ui-tab-bar-item:nth-child(7):before {
-  background-image: url(https://janko320000.github.io/discord.css/icons/code_braces.svg);
 }
 
 #bda-qem {
