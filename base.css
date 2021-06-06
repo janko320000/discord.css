@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*! Janko's Theme v6.1.8 */
 /*! Powered by DiscordSelectors v0.2.7 */
-/* DEFAULT SETTINGS */
+/* DEFAULT SETTINGS */ClearVision
 :root {
   --main-color: #2780e6;
   --hover-color: #1e63b3;
@@ -26,7 +26,7 @@
   --members-width: 240px;
   --background-shading: 100%;
   --background-overlay: rgba(0, 0, 0, .6);
-  --background-image: url(https://janko320000.github.io/images/sapphire.jpg);
+  --background-image: url(https://janko320000.github.io/discord.css/icons/sapphire.jpg);
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
